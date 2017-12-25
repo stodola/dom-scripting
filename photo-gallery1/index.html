@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Image Gallery</title>
+<script src='script.js'></script>
+
+<style>
+#image_area {
+
+	height: 300px;
+    width: 400px;
+    background-color: powderblue;
+    margin: 30px;
+    border: 2px solid;
+    padding: 10px;
+    display:block;
+    clear: left;
+}
+
+ul {
+padding: 0;
+}
+
+li {
+float: left;
+padding: 1em;
+list-style: none;
+}
+
+img {
+display:block;
+clear:both;
+}
+
+
+</style>
+</head>
+<body>
+<h1>Snapshots</h1>
+<ul id='imagegallery'>
+	<li>
+<a href="/home/pegaz/Pictures/1.jpg" title="A fireworks display"> Fireworks</a>
+</li>
+<li>
+<a href="/home/pegaz/Pictures/2.jpg" title="A cup of black coffee"> Coffee</a>
+</li>
+<li>
+<a href="/home/pegaz/Pictures/cat1.jpg" title="A red, red rose">Rose</a>
+</li>
+<li>
+<a href="/home/pegaz/Pictures/cat2.jpg" title="The famous clock"> Big Ben</a>
+</li>
+</ul>
+<div id ='image_area'>
+<img id="placeholder" src="/home/pegaz/Pictures/1.jpg" alt="my image gallery"  height="300" width="400"/>
+</div>
+<p id='description'>asdfasdf</p>
+</body>
+</html>
